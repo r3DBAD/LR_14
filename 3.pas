@@ -1,4 +1,6 @@
-﻿var
+program my52;
+
+var
   x, y: integer;
 
 function stepen(a, b: integer): integer;

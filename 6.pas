@@ -1,11 +1,13 @@
-﻿procedure fib(i, n: integer);
-begin
-  writeln(i + n, ' ');  
-  
-  if n + i <= 89 then  
-    fib(n, n + i);  
-end;
+program my52;
 
+procedure fib(i, n: integer);
 begin
-  fib(1, 1);  
+  if i+ n <=89 then
+  begin
+    writeln(i+n, ' ');
+    fib(n,i+n)
+  end;
+end;
+begin
+  fib(0,1)
 end.

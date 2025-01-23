@@ -1,4 +1,6 @@
-﻿procedure LoopFor(i, n: integer);
+program my52;
+
+procedure LoopFor(i, n: integer);
 begin
   if i <= n then  
   begin
